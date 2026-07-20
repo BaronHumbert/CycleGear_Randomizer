@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+
+    <title>CycleGear Raffle</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+    <h1 class="logo">CycleGear Raffle</h1>
+
+    <main class="main-content">
+
+        <section class="entries-form">
+
+            <form>
+                <label for="entries">How many entries?</label>
+                <input id="entries" type="number" min="1">
+
+                <label for="prizes">How many prizes?</label>
+                <input id="prizes" type="number" min="1">
+            </form>
+
+        </section>
+
+
+        <section class="answers">
+            <button id="button" class="button">
+                Randomize
+            </button>
+
+            <p id="winner" class="answer"></p>
+
+        </section>
+    </main>
+
+    <script src="./js/index.js"></script>
+
+</body>
+</html>
